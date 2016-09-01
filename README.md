@@ -7,11 +7,11 @@ The communication between publisher and subscribers is done throw messages.
 ## Solution Structure:
 1.	Service
 The service application conations the business logic code and the WCF contract implementations. 
-Subscribe Service:
-To handle client subscription and unsubscribing scenarios. 
-Publish Service:
-To handle sending an update to all subscribers.
-Publisher Subscriber Hub:
+ + Subscribe Service:
+ To handle client subscription and unsubscribing scenarios. 
+ + Publish Service:
+ To handle sending an update to all subscribers.
+ + Publisher Subscriber Hub:
  Maintain the list of subscribers, Return subscribers by key, allow client to subscribe and unsubscribe.
 2.	Model
 The Model applications conations all the message definition, WCF contract interfaces.
