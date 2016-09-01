@@ -21,14 +21,14 @@ The host application is just a console application that act as a hosting for the
 The client section include two application one application act as a publisher and the other application act as a subscriber, multiple instances of the subscriber could be opened to listen for same or different events.
 
 ## Current implementation issues
-•	One or multiple of the communicating entities might be down.
-•	The message will be lost if the subscriber is not up and running.
+1. One or multiple of the communicating entities might be down.
+2. The message will be lost if the subscriber is not up and running.
 
 ## Further Enhancements
-•	Rely on a durable storage to send the messages to and whenever the service is up and running the service will resume its work.
-•	Using a mechanism like MSMQ, which will grantee message delivery, enhance lose coupling and scalability.
-•	Hosting the WCF service on more mature environment like IIS instead of self-hosting.
-•	Configure the WCF with different endpoints to allow clients to communicate with different protocols.
+1.	Rely on a durable storage to send the messages to and whenever the service is up and running the service will resume its work.
+2.	Using a mechanism like MSMQ, which will grantee message delivery, enhance lose coupling and scalability.
+3.	Hosting the WCF service on more mature environment like IIS instead of self-hosting.
+4.	Configure the WCF with different endpoints to allow clients to communicate with different protocols.
 
 ## Others
 The solution is built using Visual Studio 2015, framework version 4.5.2
