@@ -14,11 +14,11 @@ The service application conations the business logic code and the WCF contract i
  + **Publisher Subscriber Hub:**
  Maintain the list of subscribers, Return subscribers by key, allow client to subscribe and unsubscribe.
 2.	Model
-The Model applications conations all the message definition, WCF contract interfaces.
+ + The Model applications conations all the message definition, WCF contract interfaces.
 3.	Host
-The host application is just a console application that act as a hosting for the WCF services
+ + The host application is just a console application that act as a hosting for the WCF services
 4.	Client
-The client section include two application one application act as a publisher and the other application act as a subscriber, multiple instances of the subscriber could be opened to listen for same or different events.
+ + The client section include two application one application act as a publisher and the other application act as a subscriber, multiple instances of the subscriber could be opened to listen for same or different events.
 
 ## Current implementation issues
 1. One or multiple of the communicating entities might be down.
