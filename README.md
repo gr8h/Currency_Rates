@@ -1,7 +1,7 @@
 # Currency Rate Notify
 
 ## Overview:
-In Publish/Subscribe pattern the subscriber tag each message with a key, the publisher send the message to all subscribers that have asked to receive a message for this key.
+In Publish/Subscribe pattern the subscriber subscribe to a key, the publisher send the message to all subscribers that have asked to receive a message for this key.
 The communication between publisher and subscribers is done throw messages.
 
 ## Solution Structure:
